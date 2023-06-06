@@ -310,12 +310,6 @@ input[type="submit"] {
 }
 /* edicion contacto */
 
-
-
-
-
-
-
 /* edicione imagenes */
 .contenedor-imagenes {
   display: flex;
@@ -345,7 +339,7 @@ input[type="submit"] {
 .contenedor-video {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* Proporción de aspecto 16:9 (altura / ancho) */
+  padding-top: 56.25%; 
 }
 
 .contenedor-video iframe {
@@ -358,6 +352,7 @@ input[type="submit"] {
 .contenedor-video {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* Proporción de aspecto 16:9 (altura / ancho) */
-}
+  padding-top: 56.25%; 
 
+
+}

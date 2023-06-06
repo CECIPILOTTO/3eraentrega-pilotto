@@ -6,15 +6,16 @@
 }
 .body {
   height: 100vh;
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  
   
 }
 
 
+
+.header {
+  height: 15vh;
+  
+}
 .main {
   height: 70vh;
 }
@@ -24,11 +25,14 @@
 
 .carousel {
 margin-top: 140px;
+}
+
+
 .carousel-item img {
   height: 350px;
   width: 250px;  
 }
-}
+
 
 .contenedor {
   margin-top: 100px; 
@@ -59,20 +63,41 @@ margin-top: 140px;
   text-decoration: underline; 
 }
 
+@import "tiendavirtual";
 
 
 
 
+.biografia {
+max-width: 600px;
+margin: 0 auto;
+text-align: justify;
+padding: 20px;
+
+}
+.biografia h1 {
+text-align: center;
+
+}
 
 
+.biografia img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-bottom: 20px;
+align-items: center;
+}
+.biografia p {
+line-height: 2.2;
+font-family:Arial, Helvetica, sans-serif  
+}
 
 
-
-
-
-
-
-
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
 
 /* Imagenes */
 .image-container {
@@ -81,46 +106,68 @@ margin-top: 140px;
   align-items: center;
 }
 
+.image-container img {
+  width: 50%;
+  height: auto;
+}
+.image-container {
+  display: flex;
+  flex-direction:block ;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image-container {
+  display: flex;
+  flex-direction:block ;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
 
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+  
+}
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+  
+}
 
 
 
 
 
 .title {
-  font-weight: bold;
-  font-size: 20px;
-  margin-right: 10px;
-  .title {
 
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    
-    }
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+
 }
-
 
 .description {
-  font-size: 16px;
-  margin-right: 10px;
-  .description {
-    font-size: 16px;
-    margin-right: 10px;
-    
-  }
-  .description {
-    font-size: 16px;
-    margin-right: 10px;
-    
-  }
-  .description {
-    font-size: 16px;
-    margin-right: 10px;
-    
-    }
-  
+font-size: 16px;
+margin-right: 10px;
+
 }
+
+
 
 
 /* Biografia */
@@ -191,17 +238,17 @@ width: 100%;
 padding: 8px;
 border: 1px solid #ccc;
 border-radius: 4px;
-input[type="submit"] {
-  width: 100%;
-  padding: 8px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  }
 }
 
+input[type="submit"] {
+width: 100%;
+padding: 8px;
+background-color: #4caf50;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
 .main-form {
 margin-top: 20px;
 }
@@ -232,16 +279,12 @@ width: 40px;
 .contenedor-imagenes {
 display: flex;
 flex-wrap: wrap;
+}
+
 .contenedor-imagenes img {
-  width: calc(25% - 10px);
-  margin: 5px;
-  height: auto;
-  }
-  .contenedor-imagenes img {
-    width: calc(25% - 10px);
-    margin: 5px;
-    height: auto;
-    }
+width: calc(25% - 10px);
+margin: 5px;
+height: auto;
 }
 
 @media (max-width: 768px) {
@@ -255,9 +298,6 @@ flex-wrap: wrap;
   width: 100%;
 }
 }
+
 /* edicione imagenes */
 
-
-@import "header";
-@import "imagenes";
-@import "tiendavirtual";
