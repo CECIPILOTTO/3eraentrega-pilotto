@@ -64,30 +64,11 @@ margin-top: 140px;
 
 
 
-/* Tienda Virtual */
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
-  .product {
-    width: 300px;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-     
-  }
-  .product img {
-    width: 200px;
-    height: 200px;
-    
-  }
-  
-}
 
-@import "header";
-@import "imagenes";
+
+
+
+
 
 
 
@@ -276,3 +257,7 @@ flex-wrap: wrap;
 }
 /* edicione imagenes */
 
+
+@import "header";
+@import "imagenes";
+@import "tiendavirtual";

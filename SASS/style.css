@@ -56,54 +56,6 @@
   text-decoration: underline;
 }
 
-/* Tienda Virtual */
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
-}
-.products .product {
-  width: 300px;
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-.products .product img {
-  width: 200px;
-  height: 200px;
-}
-
-.header {
-  height: 15vh;
-}
-.header header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.image-container img {
-  width: 50%;
-  height: auto;
-}
-.image-container img .image-container {
-  display: flex;
-  flex-direction: block;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.image-container img .image-container {
-  display: flex;
-  flex-direction: block;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 /* Imagenes */
 .image-container {
   display: flex;
@@ -264,4 +216,32 @@ textarea input[type=submit] {
     width: 100%;
   }
 }
-/* edicione imagenes *//*# sourceMappingURL=style.css.map */
+/* edicione imagenes */
+.header {
+  height: 15vh;
+}
+.header header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 50%;
+  height: auto;
+}
+.image-container img .image-container {
+  display: flex;
+  flex-direction: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image-container img .image-container {
+  display: flex;
+  flex-direction: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
