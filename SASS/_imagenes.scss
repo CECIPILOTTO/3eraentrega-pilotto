@@ -91,6 +91,26 @@
   overflow: hidden;
 }
 
+.titulo-mov {
+  animation: animacion-titulo 2s infinite;
+  font-size: 100px;
+}
+
+@keyframes animacion-titulo {
+  0% {
+    transform: rotateY(0deg);
+    color:black;
+  }
+  50% {
+    transform: rotateY(180deg);
+    color:darkorange;
+  }
+  100% {
+    transform: rotateY(360deg);
+    color:grey;
+  }
+}
+
 
 
 .contenedor-imagenes {

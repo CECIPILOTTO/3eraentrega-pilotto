@@ -1,25 +1,31 @@
 @charset "UTF-8";
+/**reseteo**********************************/
 * {
   margin: 0;
   padding: 0;
 }
 
+/**body-basico************/
 .body {
   height: 100vh;
 }
 
+/**header-basico*****/
 .header {
   height: 15vh;
 }
 
+/***main-basico***/
 main {
   height: 70vh;
 }
 
+/*footer-basico**/
 .footer {
   height: 15vh;
 }
 
+/*todo el contenido pages**/
 .biografia {
   max-width: 800px;
   margin: 0 auto;
@@ -152,6 +158,25 @@ p {
   overflow: hidden;
 }
 
+.titulo-mov {
+  animation: animacion-titulo 2s infinite;
+  font-size: 100px;
+}
+
+@keyframes animacion-titulo {
+  0% {
+    transform: rotateY(0deg);
+    color: black;
+  }
+  50% {
+    transform: rotateY(180deg);
+    color: darkorange;
+  }
+  100% {
+    transform: rotateY(360deg);
+    color: grey;
+  }
+}
 .contenedor-imagenes {
   display: flex;
   flex-wrap: wrap;
