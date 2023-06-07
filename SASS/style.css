@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   height: 100vh;
 }
@@ -7,7 +12,7 @@
   height: 15vh;
 }
 
-.main {
+main {
   height: 70vh;
 }
 
@@ -15,76 +20,29 @@
   height: 15vh;
 }
 
-.carousel {
-  margin-top: 140px;
+.biografia {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.carousel-item img {
-  height: 350px;
-  width: 250px;
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.contenedor {
-  margin-top: 100px;
-  display: flex;
-}
-
-.image-container img {
-  margin-top: 100px;
-  width: 150px;
-  height: 150px;
+img {
   display: block;
-  margin-bottom: 10px;
-  margin-left: 5px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
-.container {
-  width: 100%;
-  overflow: hidden;
-}
-
-.title {
-  font-family: Arial, sans-serif;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
-  /* Tienda Virtual */
-}
-
-.product {
-  width: 300px;
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  text-align: center;
-  /* Tienda Virtual */
-}
-
-.product img {
-  width: 200px;
-  height: 200px;
-  /* Tienda Virtual */
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .biografia {
@@ -116,34 +74,6 @@ p {
   margin-bottom: 15px;
 }
 
-/* Biografia */
-.biografia {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* Biografia */
-/* Imagenes */
 .image-container {
   display: flex;
   flex-wrap: wrap;
@@ -171,7 +101,57 @@ p {
   margin-bottom: 20px;
 }
 
-/* edicione imagenes */
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.contenedor {
+  margin-top: 100px;
+  display: flex;
+}
+
+.image-container img {
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .contenedor-imagenes {
   display: flex;
   flex-wrap: wrap;
@@ -193,8 +173,6 @@ p {
     width: 100%;
   }
 }
-/* edicione imagenes */
-/* edicion contacto */
 .formulario-peñarol {
   max-width: 500px;
   margin: 0 auto;
@@ -254,8 +232,6 @@ input[type=submit] {
   width: 40px;
 }
 
-/* edicion contacto */
-/* edicion contacto */
 @media screen and (max-width: 767px) {
   .contenido-form {
     flex-direction: column;
@@ -265,40 +241,44 @@ input[type=submit] {
     flex-basis: 100%;
   }
 }
-/* edicion contacto */
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.title {
-  font-weight: bold;
-  font-size: 20px;
-  margin-right: 10px;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
 }
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
+.product {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
 }
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
+.product img {
+  width: 200px;
+  height: 200px;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.carousel {
+  margin-top: 140px;
 }
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
+.carousel-item img {
+  height: 350px;
+  width: 250px;
 }/*# sourceMappingURL=style.css.map */

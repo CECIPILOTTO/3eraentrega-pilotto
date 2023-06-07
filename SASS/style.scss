@@ -1,114 +1,29 @@
 
-.body {
-  height: 100vh;
-  
-  
-}
 
-
-
-.header {
-  height: 15vh;
-  
-}
-.main {
-  height: 70vh;
-}
-.footer {
-  height: 15vh;
-}
-
-.carousel {
-margin-top: 140px;
-}
-
-
-.carousel-item img {
-  height: 350px;
-  width: 250px;  
-}
-
-
-.contenedor {
-  margin-top: 100px; 
-  display: flex;
-  
-}
-
-.image-container img {
-  margin-top: 100px;
-  width: 150px;
-  height: 150px;
-  display: block;
-  margin-bottom: 10px;
-  margin-left: 5px;
-}
-
-
-.container {
-  width: 100%;
-  overflow: hidden;
-}
-
-.title {
-  font-family: Arial, sans-serif; 
-  color:black; 
-  font-size: 24px; 
-  font-weight: bold; 
-  text-decoration: underline; 
-}
-
-@import "tiendavirtual";
-@import "biografia";
-@import "imagenes";
-@import "contacto";
 @import "reseteo";
 
 
 
-.title {
-  font-weight: bold;
-  font-size: 20px;
-  margin-right: 10px;
+@import "body";
 
-}
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
-}
+@import "header";
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
+@import "main";
+
+@import "footer";
+
+@import "biografia";
+@import "imagenes";
+@import "contacto";
+@import "tiendavirtual";
+@import "carousel";
+
+
+
+
+
+
+
+
   
-}
-.description {
-  font-size: 16px;
-  margin-right: 10px;
-  
-}
-
-
-
-
-
-.title {
-
-font-size: 20px;
-font-weight: bold;
-margin-bottom: 10px;
-
-}
-
-.description {
-font-size: 16px;
-margin-right: 10px;
-
-}
-
-
-
-
-
-
