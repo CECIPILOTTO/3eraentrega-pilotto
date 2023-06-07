@@ -1,9 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .body {
   height: 100vh;
 }
@@ -121,6 +116,33 @@ p {
   margin-bottom: 15px;
 }
 
+/* Biografia */
+.biografia {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Biografia */
 /* Imagenes */
 .image-container {
   display: flex;
@@ -149,65 +171,29 @@ p {
   margin-bottom: 20px;
 }
 
-.title {
-  font-weight: bold;
-  font-size: 20px;
-  margin-right: 10px;
+/* edicione imagenes */
+.contenedor-imagenes {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.description {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.description {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.description {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.description {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-/* Biografia */
-.biografia {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
+.contenedor-imagenes img {
+  width: calc(25% - 10px);
+  margin: 5px;
   height: auto;
-  margin: 0 auto;
-  margin-bottom: 20px;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
+@media (max-width: 768px) {
+  .contenedor-imagenes img {
+    width: calc(50% - 10px);
+  }
 }
-
-/* Biografia */
+@media (max-width: 480px) {
+  .contenedor-imagenes img {
+    width: 100%;
+  }
+}
+/* edicione imagenes */
 /* edicion contacto */
 .formulario-peñarol {
   max-width: 500px;
@@ -280,26 +266,39 @@ input[type=submit] {
   }
 }
 /* edicion contacto */
-/* edicione imagenes */
-.contenedor-imagenes {
-  display: flex;
-  flex-wrap: wrap;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.contenedor-imagenes img {
-  width: calc(25% - 10px);
-  margin: 5px;
-  height: auto;
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-  .contenedor-imagenes img {
-    width: calc(50% - 10px);
-  }
+.description {
+  font-size: 16px;
+  margin-right: 10px;
 }
-@media (max-width: 480px) {
-  .contenedor-imagenes img {
-    width: 100%;
-  }
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
 }
-/* edicione imagenes *//*# sourceMappingURL=style.css.map */
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
