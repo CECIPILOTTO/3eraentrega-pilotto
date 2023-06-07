@@ -97,15 +97,15 @@
 }
 
 @keyframes animacion-titulo {
-  1% {
+  0% {
     transform: rotateY(0deg);
     color:black;
   }
-  51% {
+  50% {
     transform: rotateY(180deg);
     color:darkorange;
   }
-  110% {
+  100% {
     transform: rotateY(360deg);
     color:grey;
   }
