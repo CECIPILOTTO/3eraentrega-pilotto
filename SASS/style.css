@@ -1,31 +1,37 @@
 @charset "UTF-8";
-/**reseteo**********************************/
+/*reseteo*/
 * {
   margin: 0;
   padding: 0;
 }
 
-/**body-basico************/
+/*body-basico*/
 .body {
   height: 100vh;
 }
 
-/**header-basico*****/
+/*header-basico*/
 .header {
   height: 15vh;
 }
 
-/***main-basico***/
+/*main-basico*/
 main {
   height: 70vh;
 }
 
-/*footer-basico**/
+/*footer-basico*/
 .footer {
   height: 15vh;
 }
 
-/*todo el contenido pages**/
+iframe {
+  position: relative;
+  top: 30vh;
+  left: 20vh;
+}
+
+/*todo el contenido pages*/
 .biografia {
   max-width: 800px;
   margin: 0 auto;
@@ -80,6 +86,7 @@ p {
   margin-bottom: 15px;
 }
 
+/*todo el contenido pages*/
 .image-container {
   display: flex;
   flex-wrap: wrap;
@@ -184,6 +191,7 @@ p {
     width: 100%;
   }
 }
+/*todo el contenido pages*/
 .formulario-peñarol {
   max-width: 500px;
   margin: 0 auto;
@@ -252,6 +260,7 @@ input[type=submit] {
     flex-basis: 100%;
   }
 }
+/*todo el contenido pages*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -285,6 +294,7 @@ header {
   height: 200px;
 }
 
+/*todo el contenido pages*/
 .carousel {
   margin-top: 140px;
 }

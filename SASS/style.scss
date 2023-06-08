@@ -1,24 +1,29 @@
 
-/**reseteo**********************************/
+/*reseteo*/
 @import "reseteo";
 
 
-/**body-basico************/
+/*body-basico*/
 @import "body";
 
-/**header-basico*****/
+/*header-basico*/
 @import "header";
-/***main-basico***/
+/*main-basico*/
 @import "main";
-/*footer-basico**/
+/*footer-basico*/
 @import "footer";
-/*todo el contenido pages**/
-@import "biografia";
-@import "imagenes";
-@import "contacto";
-@import "tiendavirtual";
-@import "carousel";
+@import "iframe";
 
+/*todo el contenido pages*/
+@import "biografia";
+/*todo el contenido pages*/
+@import "imagenes";
+/*todo el contenido pages*/
+@import "contacto";
+/*todo el contenido pages*/
+@import "tiendavirtual";
+/*todo el contenido pages*/
+@import "carousel";
 
 
 
