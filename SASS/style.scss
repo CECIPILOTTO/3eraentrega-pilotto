@@ -1,30 +1,35 @@
 
 /*reseteo*/ 
-@import "reseteo";
+@import "./base/reseteo";
 
 
 /*body-basico*/
-@import "body";
+@import "./base/body";
 
 /*header-basico*/
-@import "header";
+@import "./base/header";
 /*main-basico*/
-@import "main";
+@import "./base/main";
 /*footer-basico*/
-@import "footer";
-@import "iframe";
+@import "./base/footer";
+@import "./base/iframe";
 
 /*todo el contenido pages*/
-@import "biografia";
+@import "./biografia/biografia";
 /*todo el contenido pages*/
-@import "imagenes";
+@import "./imagenes/imagenes";
 /*todo el contenido pages*/
-@import "contacto";
+@import "./contacto/contacto";
 /*todo el contenido pages*/
-@import "tiendavirtual";
+@import "./tiendavirtual/tiendavirtual";
 /*todo el contenido pages*/
-@import "carousel";
+@import "./base/carousel";
 
-@import "card";
+@import "./inicio/card";
 
-@import "mediaquery";
+
+@import "./mediaquerys/mediaquery"
+
+
+
+  

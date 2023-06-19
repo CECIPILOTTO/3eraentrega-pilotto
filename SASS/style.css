@@ -25,6 +25,7 @@ main {
 /*footer-basico*/
 .footer {
   height: 15vh;
+  background-color: rgb(224, 199, 166);
 }
 
 .nav-item {
@@ -90,6 +91,10 @@ p {
   font-size: 20px;
   margin-bottom: 15px;
   font-weight: bold;
+}
+
+.biografia {
+  position: relative;
 }
 
 /*todo el contenido pages*/
@@ -187,16 +192,6 @@ p {
   height: auto;
 }
 
-@media (max-width: 768px) {
-  .contenedor-imagenes img {
-    width: calc(50% - 10px);
-  }
-}
-@media (max-width: 480px) {
-  .contenedor-imagenes img {
-    width: 100%;
-  }
-}
 /*todo el contenido pages*/
 .formulario-peñarol {
   max-width: 500px;
@@ -315,4 +310,15 @@ header {
   font-size: 20px;
   font-weight: bold;
   font: arial;
+}
+
+@media (max-width: 768px) {
+  .contenedor-imagenes img {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 480px) {
+  .contenedor-imagenes img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
