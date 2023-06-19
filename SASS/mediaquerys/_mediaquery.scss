@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .contenedor-imagenes img {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contenedor-imagenes img {
+      width: 100%;
+    }
+  }
