@@ -10,9 +10,7 @@
   height: 100vh;
 }
 
-body {
-  background-color: rgb(245, 242, 242);
-} /*header-basico*/
+/*header-basico*/
 .header {
   height: 15vh;
 }
@@ -252,15 +250,12 @@ input[type=submit] {
   width: 40px;
 }
 
-@media screen and (max-width: 767px) {
-  .contenido-form {
-    flex-direction: column;
-  }
-  .form-asunto,
-  .form-datos {
-    flex-basis: 100%;
-  }
+.img-espe-contacto {
+  background-image: url("https://visitacds.uy/demos/work_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /*todo el contenido pages*/
 body {
   font-family: Arial, sans-serif;
@@ -295,6 +290,12 @@ header {
   height: 200px;
 }
 
+.fondo-tienda {
+  background-image: url("https://www.lr21.com.uy/wp-content/uploads/2015/12/logo-estadio-pe%C3%B1arol.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*todo el contenido pages*/
 .carousel {
   margin-top: 140px;
@@ -310,6 +311,12 @@ header {
   font-size: 20px;
   font-weight: bold;
   font: arial;
+}
+
+.pagina-especifica {
+  background-image: url("https://imgs.elpais.com.uy/dims4/default/b388653/2147483647/strip/true/crop/993x683+15+0/resize/1440x990!/quality/90/?url=https%3A%2F%2Fel-pais-uruguay-production-web.s3.amazonaws.com%2Fbrightspot%2Fuploads%2F2021%2F03%2F03%2F603fe48cf4001.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 768px) {

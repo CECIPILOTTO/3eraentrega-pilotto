@@ -57,19 +57,11 @@ input[type="submit"] {
   width: 40px;
   
 }
-
-
-
-@media screen and (max-width: 767px) {
-  .contenido-form {
-    flex-direction: column;
-  }
-
-  .form-asunto,
-  .form-datos {
-    flex-basis: 100%;
-    
-  }
+.img-espe-contacto{
+  background-image: url('https://visitacds.uy/demos/work_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 
