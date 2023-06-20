@@ -9,3 +9,13 @@
       width: 100%;
     }
   }
+ @media (max-width: 767px) {
+  .contendio-form {
+    flex-direction: column;
+  }
+  .form-asunto,
+  .form-datos {
+    flex-basis: 100%;
+  }
+ }
+ 
