@@ -45,12 +45,6 @@ iframe {
   background-color: rgb(243, 241, 209);
 }
 
-.biografia {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 h1 {
   font-size: 40px;
   text-align: center;
@@ -66,43 +60,13 @@ img {
   margin-bottom: 20px;
 }
 
-.biografia {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: justify;
-  padding: 20px;
-}
-
-.biografia h1 {
-  text-align: center;
-}
-
-.biografia img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-  align-items: center;
-}
-
-.biografia p {
-  line-height: 2.2;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  font-size: 20px;
-  margin-bottom: 15px;
-  font-weight: bold;
-}
-
-.biografia {
-  position: relative;
-}
-
 .biografia-p {
   padding: 10px;
   border: 20px solid rgba(19, 20, 3, 0.8352941176);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*todo el contenido pages*/
