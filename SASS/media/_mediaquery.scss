@@ -19,3 +19,9 @@
   }
  }
  
+
+ @media (max-width: 767Px) {
+  .content-container {
+   flex-direction: column;
+  }
+}
